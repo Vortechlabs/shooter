@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>SHOOTER</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="canvas-container">
+            <div class="display-bar">
+                <p id="player-name">hallo</p>
+                <p>Score : <span id="score">80</span></p>
+                <p>Time : <span id="timer">30</span></p>
+            </div>
+            
+                <img src="./Sprites/gun1.png" alt="" class="gun">
+
+            <canvas></canvas>
+
+            </div>
+            <div class="leaderboard-container">
+                <h3>LEADERBOARD</h3>
+
+                <select name="" id="">
+                    <option value="">Short By Score</option>
+                    <option value="">Short By Name</option>
+                    <option value="">Short By Time</option>
+                </select>
+
+                <div class="leaderboard-display">
+                    <div>
+                        <h4>Tomas Galih</h4>
+                        <p>Score: 44</p>
+                    </div>
+                    <button>detail</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./js/classes.js"></script>
+    <script src="./js/game_start.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOOTER</title>
+</head>
+<body>
+     <main>
+        <div class="canvas-container">
+        <div>
+                <div class="welcome-content">
+                    <img src="./Sprites/shooter.png" alt="">
+                    <br>
+                    <input id="username" type="text" placeholder="Input Username">
+                    <br>
+                    <select name="" id="">
+                        <option value="">Select Level</option>
+                        <option value="">Easy Level</option>
+                        <option value="">Medium Level</option>
+                        <option value="">High Level</option>
+                    </select>
+                    <br>
+
+                    <div class="gun-container"> 
+                       
+                        <div> 
+                            <label for="gun">
+                            <img 
+                                src="./Sprites/gun1.png" 
+                                alt="I'm happy" />
+                            </label> 
+    
+                            <br>
+                            
+                            <input 
+                            type="radio" name="gun1"
+                            id="gun" class="input-hidden" />
+                        </div>
+
+                        <div> 
+                            <label for="gun">
+                            <img 
+                                src="./Sprites/gun2.png" 
+                                alt="I'm happy" />
+                            </label> 
+    
+                            <br>
+                            
+                            <input 
+                            type="radio" name="gun2"
+                            id="gun" class="input-hidden" />
+                        </div>
+
+                    </div>
+
+                    <div class="target-container"> 
+                       
+                        <div> 
+                            <label for="target">
+                            <img 
+                                src="./Sprites/target1.png" 
+                                alt="I'm happy" />
+                            </label> 
+    
+                            <br>
+                            
+                            <input 
+                            type="radio" name="target1"
+                            id="target" class="input-hidden" />
+                        </div>
+
+                        <div> 
+                            <label for="target">
+                            <img 
+                                src="./Sprites/target2.png" 
+                                alt="I'm happy" />
+                            </label> 
+    
+                            <br>
+                            
+                            <input 
+                            type="radio" name="target2"
+                            id="target" class="input-hidden" />
+                        </div>
+
+                        <div> 
+                            <label for="target">
+                            <img 
+                                src="./Sprites/target3.png" 
+                                alt="I'm happy" />
+                            </label> 
+    
+                            <br>
+                            
+                            <input 
+                            type="radio" name="target3"
+                            id="target" class="input-hidden" />
+                        </div>
+
+                    </div>
+
+                    <div class="welcome-button">
+                        <a href="/game_start.html"><button style="background-color: green;">Play Game</button></a>
+                        <a><button style="background-color: brown;">Instruction</button></a>
+                    </div>
+
+                </div>
+            <canvas></canvas>
+        </div>
+        <div>
+     </main>
+    <script src="./js/classes.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

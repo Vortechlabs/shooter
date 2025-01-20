@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+canvas{
+    border: 1px black solid;
+}
+
+.container{
+    display: flex;
+}
+
+.display-bar{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    justify-content: space-between;
+}
+
+.canvas-container{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+
+.welcome-content{
+    position: absolute;
+    top: 50%; /* Menempatkan di tengah vertikal */
+    left: 50%; /* Menempatkan di tengah horizontal */
+    transform: translate(-50%, -50%); /* Menggeser elemen ke tengah */
+    text-align: center;
+}
+
+.leaderboard-container{
+    background-color: rgb(26, 25, 25);
+    padding: 1rem;
+}
+
+.leaderboard-display{
+    display: flex;
+    gap: 1rem;
+    font-size: 10px;
+    margin-top: 1rem;
+}
+
+.leaderboard-container button{
+    background-color: yellow;
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 10px;
+    width: 100%;
+}
+
+button {
+    font-size: 10px;
+    padding: 0 1rem;
+}
+
+input{
+    outline: grey;
+    box-shadow: 5rem gray;
+}
+
+#username{
+    margin: 1rem 0;
+    font-size: 12px;
+    padding: 0.5rem;
+}
+
+label img{
+    height: 5rem;
+}
+
+.gun-container, .target-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.welcome-button{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.welcome-button button{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    border: 1px;
+    font-size: 10px;
+}
+
+.gun{
+    position: absolute;
+    height: 12rem;
+    align-items: flex-end;
+}
