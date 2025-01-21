@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>SHOOTER</title>
+    <link rel="icon" type="image/x-icon" href="./Sprites/shooter.png">
 </head>
 <body>
     <main>
@@ -18,8 +19,12 @@
                 <p>Score : <span id="score">80</span></p>
                 <p>Time : <span id="timer">30</span></p>
             </div>
-            
-                <img src="./Sprites/gun1.png" alt="" class="gun">
+
+            <div class="status">
+                <h1  id="game-status" style="display: none;">You Win</h1>
+                <h1  id="time-over" style="display: none;">Time is Over</h1>
+                <h1  id="final-score" style="display: none;">Your Score is: </h1>
+            </div>
 
             <canvas></canvas>
 

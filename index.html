@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOOTER</title>
+    <link rel="icon" type="image/x-icon" href="./Sprites/shooter.png">
 </head>
 <body>
      <main>
@@ -22,7 +23,7 @@
                         <option value="">Select Level</option>
                         <option value="">Easy Level</option>
                         <option value="">Medium Level</option>
-                        <option value="">High Level</option>
+                        <option value="">Hard Level</option>
                     </select>
                     <br>
 
@@ -105,10 +106,26 @@
                     </div>
 
                     <div class="welcome-button">
-                        <a href="/game_start.html"><button style="background-color: green;">Play Game</button></a>
-                        <a><button style="background-color: brown;">Instruction</button></a>
+                        <a href="/game_start.html"><button class="green-button">Play Game</button></a>
+                        <a><button class="brown-button" id="instruction-button">Instruction</button></a>
                     </div>
 
+                </div>
+                
+                <div class="instruction">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h1 style=" font-size: 12px;">how to play game</h1>
+                        <span class="exit">X</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Input Username</li>
+                            <li>Point the pointer at the target</li>
+                            <li>Click to shoot</li>
+                            <li>Get as many points as possible</li>
+                            <li>Enjoy!</li>
+                        </ul> 
+                    </div>
                 </div>
             <canvas></canvas>
         </div>
